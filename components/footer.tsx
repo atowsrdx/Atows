@@ -1,0 +1,17 @@
+import type { NextPage } from "next";
+import Link from "next/link";
+
+const Footer: NextPage = () => {
+  return (
+    <footer className="footer">
+      <h1 className="logo">A T O W S</h1>
+      <p className="tpf">
+        <Link href={"/privacy-policy"} passHref>
+          <u>Privacy Policy</u>
+        </Link>
+      </p>
+    </footer>
+  );
+};
+
+export default Footer;
