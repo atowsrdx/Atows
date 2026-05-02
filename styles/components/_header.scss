@@ -1,0 +1,28 @@
+.header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 340px;
+    height: 50px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(90deg, #7c3aed, #3b82f6) 1;
+    .title {
+        color: #ffffff;
+        font-family: Poppins;
+        font-size: 32px;
+        font-weight: bold;
+        text-align: left;
+        background: linear-gradient(90deg, #a78bfa, #60a5fa);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .icon {
+        margin-left: auto;
+        cursor: pointer;
+        filter: invert(1);
+    }
+}
